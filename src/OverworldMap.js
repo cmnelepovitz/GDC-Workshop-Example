@@ -70,8 +70,8 @@ export class OverworldMap {
 
 export const OverworldMaps = {
     //list of maps to be used in entire game
-        Hospital: {
-            lowersrc: "assets/maps/Hospital/HospitalMapBlock.png",
+        SampleMap: {
+            lowersrc: "assets/maps/SampleMap/SampleMap.png",
             uppersrc: " ",
             gameObjects: {
                 NPCAsleep: new Character({
@@ -94,6 +94,6 @@ export const OverworldMaps = {
                     useShadow: true
                 }),
             },
-           walls: HospitalMapWalls  
+           walls: SampleMapWalls  
     }
 }

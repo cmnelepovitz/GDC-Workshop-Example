@@ -1,4 +1,4 @@
-export const HospitalMapWalls = {
+export const SampleMapWalls = {
     // Map borders
 
     // Top Border
