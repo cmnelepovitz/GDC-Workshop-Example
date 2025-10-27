@@ -88,6 +88,11 @@ export const OverworldMaps = {
                     bPlayerControlled: true,
                     useShadow: true
                 }),
+                NPC1: new Character({
+                    posX: utils.GridToPos(5),
+                    posY: utils.GridToPos(19),
+                    useShadow: true
+                }),
             },
            walls: HospitalMapWalls  
     }
